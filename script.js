@@ -338,7 +338,7 @@ const init = () => {
       const formData = new FormData();
       formData.append("data", JSON.stringify(data));
       // console.log(data);
-      const urlEndPoint = `https://script.google.com/macros/s/AKfycbzzM9ZSDVV63x8_BmZJwIVfPAGgNqsf1XBegMBaHN6ImH1h9n9G98mYAQUE4sQLfORn/exec`;
+      const urlEndPoint = `https://script.google.com/macros/s/AKfycbxlb5gHEj7IMeYYaF3cYfOAoOLkwmUOi--E6DB3GMWaHanGAsPYgKLuIDInXBLUIPU/exec`;
 
       const response = await fetch(urlEndPoint, {
         method: "POST",
